@@ -1,0 +1,9 @@
+name: payer-directory
+port: 8803
+lang: python
+description: "payer-directory \u2014 domain: insurance"
+http_deps:
+- audit-log-service
+publishes:
+- audit.event
+subscribes: []
